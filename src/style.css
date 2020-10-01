@@ -9,8 +9,8 @@
   section {
     display: flex;
     justify-content: center;
-    padding: 40px;
-    padding-top: 40px;
+    padding: 30px;
+    padding-top: 30px;
     height: 150vh;
     background: -webkit-linear-gradient(to right, #2d0138, #400250);
     background: linear-gradient(to right, #a1074f, #4d024d);
@@ -20,14 +20,14 @@
     position: fixed;
     width: 100%;
     display: flex;
-    padding: 15px 15px 0;
+    padding: 10px 10px 0;
     background-color: rgb(251, 200, 234);
   }
 
   .container {
     display: flex;
     flex-direction: column;
-    padding: 20px; 
+    padding: 5px; 
     width: 50px;
     height: auto;
     padding: 30px;
@@ -37,7 +37,7 @@
   }
   
   .brand-logo {
-    width: 160px;
+    width: 100px;
   }
   
  
