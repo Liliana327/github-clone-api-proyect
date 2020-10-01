@@ -4,7 +4,7 @@ class UI {
     }
     showProfile(User){
         this.profile.innerHTML = `
-            <div class="card mt-2 animated bounceInLeft">
+            <div class="card mt-5 animated bounceInLeft" style="">
                 <img src="${User.avatar_url}" class="card-img-top"/>
                 <div class="card-body">
                     <h3 class="card-title">${User.name} / ${User.login}</h3>

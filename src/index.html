@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Clone</title>
+    <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-light bg-light">
-            <a href="/" class="navbar-brand">
-                <i class="fab fa-github-alt"></i> Github Clone
-            </a>
-            <form id="userForm" class="form-inline my-2 my-lg-0">
-                <input 
-                id="textSearch"
-                type="search" 
-                class="form-control mr-sm-2" 
-                autofocus 
-                placeholder="Escribe aquí">
+    <nav class="navbar">
+        <a href="#">
+          <img class="brand-logo" src="./src/img/favicon.png" alt="logo"/>
+        </a>
+      </nav>
+    <section>
+        <div class="container">
 
-                <button 
-                class="btn btn-outline-success my-2 my-sm-0" 
-                type="submit" >
-                Buscar
-                </button>
-            </form>
-        </nav>
-        <div class="row">
-            <div id=profile class="col-md-4"></div>
-            <div class="col-md-8">hola
-                <div id="repo"></div>
+            <nav class="navbar navbar-light" style="background-color: #efe2f5; border-radius: 20px;">
+                <a href="/" class="navbar-brand">
+                    <i class="fab fa-github-alt"></i> Github Clone
+                </a>
+                <form id="userForm" class="form-inline my-2 my-lg-0">
+                    <input 
+                    id="textSearch"
+                    type="search" 
+                    class="form-control mr-sm-2" 
+                    autofocus 
+                    placeholder="Escribe aquí">
+
+                    <button 
+                    class="btn btn-outline-success my-2 my-sm-0" 
+                    type="submit" >
+                    Buscar
+                    </button>
+                </form>
+            </nav>
+
+            <div class="row">
+                <div id=profile class="col-md-4"></div>
+                <div class="col-md-4">hola
+                    <div id="repo"></div>
+                </div>
+
             </div>
-
         </div>
-    </div>
+    </section>
 </body>
 </html>
