@@ -50,7 +50,9 @@ class UI {
                             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                         </div>
                         <div class="col-md-6">
-                        
+                            <span class="badge-badge-primary">
+                                ${repo.language}
+                            </span>
                         </div>
                     </div>
                 </div>
