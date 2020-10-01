@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        port: 3000
+        port: process.env.PORT || 3000
     },
     plugins: [
         new HtmlWebpackPlugin({
