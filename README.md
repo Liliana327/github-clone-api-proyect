@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  👩🏽‍ Clon de Github con Javascript Orientado a Objetos, Nodejs, Webpack y Bootstrap. 💻
+  👩🏽‍ Clont de Github con Javascript Orientado a Objetos, Nodejs, Webpack y Bootstrap. 💻
 
 </p>
 
