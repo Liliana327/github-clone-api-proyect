@@ -39,5 +39,25 @@ class UI {
             alertFound.remove();
         }
     }
+
+    chowRepos(DataRepo){
+        let template = '';
+        DataRepo.forEach(repo => {
+            template += `
+                <div class="card card-body mt-2 animated bounceInUp ">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+                        </div>
+                        <div class="col-md-6">
+                        
+                        </div>
+                    </div>
+                </div>
+            `; 
+        });
+
+        document.getElementById('repos').innerHTML = template;
+    }
 }
 module.exports = UI
