@@ -4,7 +4,7 @@ class UI {
     }
     showProfile(User){
         this.profile.innerHTML = `
-            <div class="card mt-5 animated bounceInLeft" style="">
+            <div class="card mt-2 animated bounceInLeft" style="">
                 <img src="${User.avatar_url}" class="card-img-top"/>
                 <div class="card-body">
                     <h3 class="card-title">${User.name} / ${User.login}</h3>
@@ -50,8 +50,11 @@ class UI {
                             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                         </div>
                         <div class="col-md-6">
-                            <span class="badge-badge-primary">
+                            <span class="text-success">
                                 ${repo.language}
+                            </span>
+                            <span class="badge badge-warning">
+                                ${repo.forks_count}
                             </span>
                         </div>
                     </div>
