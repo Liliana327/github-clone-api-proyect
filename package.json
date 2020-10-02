@@ -1,34 +1,26 @@
 {
   "name": "github-clone-api-proyect",
   "version": "1.0.0",
-  "description": "Mi Bot Discord.js en Heroku",
-  "main": "index.js",
-  "engines": {
-    "node": "12.x",
-    "npm": "*"
-  },
+  "description": "<p align=\"center\">",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Liliana327"
+    "url": "git+https://github.com/Liliana327/github-clone-api-proyect.git"
   },
-  "keywords": [
-    "heroku",
-    "discord.js"
-  ],
-  "author": "Liliana327",
-  "license": "MIT",
-  "homepage": "https://github.com/Liliana327",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liliana327/github-clone-api-proyect/issues"
+  },
+  "homepage": "https://github.com/Liliana327/github-clone-api-proyect#readme",
   "devDependencies": {
     "html-webpack-plugin": "^4.5.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
-    "discord.js": "^12.0.3"
+    "webpack-dev-server": "^3.11.0"
   }
 }
